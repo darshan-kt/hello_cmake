@@ -16,34 +16,38 @@ We create two executables:
     ImageViewer → OpenCV-based image viewer
 
 
-Build and Run
-🔹 1. Create a Build Directory
-
+### Build and Run
+#### 1. Create a Build Directory
+```bash
 mkdir build
 cd build
+```
 
-🔹 2. Run CMake
-
+#### 2. Run CMake
+```bash
 cmake ..
 make
+```
+### Run Executables
 
-. Run Executables
-
-    Run the main application:
-
+#### Run the main application:
+```bash
 ./MyExecutable
+```
 
-Run the OpenCV Image Viewer:
-
+#### Run the OpenCV Image Viewer:
+```bash
 ./ImageViewer
+```
 
-
-Expected Output
+#### Expected Output
+```bash
 Main Application
 
 Hello from main!
 Hello from helperFunction!
 Hello from utilsFunction!
+```
 
 OpenCV Image Viewer
 
