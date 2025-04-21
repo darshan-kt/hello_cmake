@@ -1,4 +1,4 @@
-# 🚀 CMake Project with OpenCV
+## CMake Project with OpenCV
 
 This repository is a **step-by-step guide** on setting up a **C++ project** using CMake.  
 It also demonstrates **OpenCV integration** for simple image display.  
