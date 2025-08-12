@@ -5,11 +5,9 @@ It also demonstrates **OpenCV integration** for simple image display.
 
 ---
 
-```markdown
 ## 📂 Project Structure
 
-```
-
+```plaintext
 MyProject/
 │-- CMakeLists.txt        # CMake build configuration
 │
@@ -21,7 +19,7 @@ MyProject/
 │   │-- main.cpp
 │   │-- helper.cpp
 │   │-- utils.cpp
-│   │-- image\_view\.cpp    # OpenCV-based program
+│   │-- image_view.cpp    # OpenCV-based program
 │
 │-- sample.jpg            # Test image (for OpenCV)
 │
@@ -29,7 +27,6 @@ MyProject/
 │
 │-- README.md             # This documentation
 
-```
 ```
 
 Step 1: Configure CMakeLists.txt
