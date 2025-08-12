@@ -5,8 +5,32 @@ It also demonstrates **OpenCV integration** for simple image display.
 
 ---
 
+```markdown
 ## 📂 Project Structure
-MyProject/ │-- CMakeLists.txt # CMake build configuration │-- include/ # Header files │ │-- helper.h │ │-- utils.h │-- src/ # Source files │ │-- main.cpp │ │-- helper.cpp │ │-- utils.cpp │ │-- image_view.cpp # OpenCV-based program │-- sample.jpg # Test image (for OpenCV) │-- build/ # Created when running CMake │-- README.md # This documentation
+
+```
+
+MyProject/
+│-- CMakeLists.txt        # CMake build configuration
+│
+│-- include/              # Header files
+│   │-- helper.h
+│   │-- utils.h
+│
+│-- src/                  # Source files
+│   │-- main.cpp
+│   │-- helper.cpp
+│   │-- utils.cpp
+│   │-- image\_view\.cpp    # OpenCV-based program
+│
+│-- sample.jpg            # Test image (for OpenCV)
+│
+│-- build/                # Created when running CMake
+│
+│-- README.md             # This documentation
+
+```
+```
 
 Step 1: Configure CMakeLists.txt
 
